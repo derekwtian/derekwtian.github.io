@@ -44,10 +44,6 @@ Teaching
   <br>
   Undergraduate course, College of Computer Science, Sichuan University, Fall 2017.
   
-  <!-- ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul -->
-  
 Professional Service
 ======
 * <b>External reviewer</b>: IEEE SMC 2018.
