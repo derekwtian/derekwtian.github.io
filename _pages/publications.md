@@ -11,6 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+* <a herf="https://tianw.net">DMNEVis: A Novel Visual Approach to Explore Evolution of Dynamic Multivariate Network.</a>
+  Di Peng, <strong>Wei Tian</strong>, Binbin Lu, Min Zhu.
+  The 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Miyazaki, Japan, October 2018.
+
+* <a herf="https://tianw.net">DMNEVis: A Novel Visual Approach to Explore Evolution of Dynamic Multivariate Network.</a>
+  Di Peng, <strong>Wei Tian</strong>, Binbin Lu, Min Zhu.
+  The 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Miyazaki, Japan, October 2018.
+  
+<!--{% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %}-->
