@@ -43,6 +43,16 @@ author_profile: true
   <br>
   <b><i>SMC 2018</i></b>, The IEEE International Conference on Systems, Man, and Cybernetics, 2018.
 
+* <a href="http://cmpbook.com/stackroom.php?id=44752" target="_blank">
+    <i>Book: Handbook of Computer Network Course Projects (in Chinese: 计算机网络课程设计).</i>
+  </a>
+  <br>
+  Chief Editors: Min Zhu, Li Chen, Qin Li. 
+  <br>
+  Co-Editors: <b>Wei Tian</b>, Yong Pi, Qi Huang, et.al.
+  <br>
+  China Machine Press (机械工业出版社), ISBN: 978-7-111-61139-4, 2018.
+
 <!--{% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}-->
