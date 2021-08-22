@@ -15,7 +15,7 @@ My major research interests include Large-scale Graph Algorithms, Heterogeneous 
 You can find my CV <a href="{{url}}/files/wtian-cv.pdf" target="_blank">here</a>, if you want the freshest one, please feel free to contact me.
 
 Education
-======
+------
 * Ph.D. in Department of Computing, Hong Kong Polytechnic University, 2024 (expected)
 * M.E. in College of Computer Science, Sichuan University, 2020
 * B.E. in College of Computer Science, Sichuan University, 2017
