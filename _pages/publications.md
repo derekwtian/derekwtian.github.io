@@ -11,14 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-* <a href="{{url}}/files/smc2018.pdf" target="_blank">
-    <i>DMNEVis: A Novel Visual Approach to Explore Evolution of Dynamic Multivariate Network.</i>
-  </a>
-  <br>
-  Di Peng, <b>Wei Tian</b>, Binbin Lu, Min Zhu.
-  <br>
-  <b><i>SMC 2018</i></b>, The IEEE International Conference on Systems, Man, and Cybernetics, 2018.
-
 * <a href="{{url}}/files/jov2020.pdf" target="_blank">
     <i>TargetingVis: Visual Exploration and Analysis of Targeted Advertising Data.</i>
   </a>
@@ -27,9 +19,29 @@ author_profile: true
   <br>
   <b><i>JOV 2020</i></b>, Journal of Visualization volume 23, pages 1113–1127, 2020.
 
-* <a href="https://tianw.net">DMNEVis: A Novel Visual Approach to Explore Evolution of Dynamic Multivariate Network.</a>
-  Di Peng, <strong>Wei Tian</strong>, Binbin Lu, Min Zhu.
-  The 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Miyazaki, Japan, October 2018.
+* <a href="{{url}}/files/aes19-7.pdf" target="_blank">
+    <i>Fast Percentage Closer Soft Shadows.</i>
+  </a>
+  <br>
+  Min Zhu, Jianhua Wang, Xiaowei Li, <b>Wei Tian</b>.
+  <br>
+  Advanced Engineering Sciences, 51(4): 140-146, 2019.
+
+* <a href="{{url}}/files/aes19-1.pdf" target="_blank">
+    <i>Method of Predicting User Professionalism Based on Question Granularity in Community Question Answering.</i>
+  </a>
+  <br>
+  Min Zhu, <b>Wei Tian</b>, Di Peng, Yabo Su, Hao Niu.
+  <br>
+  Advanced Engineering Sciences, 51(1): 173-180, 2019.
+
+* <a href="{{url}}/files/smc2018.pdf" target="_blank">
+    <i>DMNEVis: A Novel Visual Approach to Explore Evolution of Dynamic Multivariate Network.</i>
+  </a>
+  <br>
+  Di Peng, <b>Wei Tian</b>, Binbin Lu, Min Zhu.
+  <br>
+  <b><i>SMC 2018</i></b>, The IEEE International Conference on Systems, Man, and Cybernetics, 2018.
 
 <!--{% for post in site.publications reversed %}
   {% include archive-single.html %}
