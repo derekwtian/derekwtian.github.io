@@ -44,9 +44,9 @@ Teaching
   <br>
   Undergraduate course, College of Computer Science, Sichuan University, Fall 2017.
   
-  <!--<ul>{% for post in site.teaching %}
+  <!-- ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>-->
+  {% endfor %}</ul -->
   
 Professional Service
 ======
@@ -65,5 +65,5 @@ Representative Awards
 * Honorable mention of ChinaVis Data Challenge (Qingdao’2017).
 * Outstanding Student of Sichuan University (2016).
 * <b>2×</b>National Encouragement Scholarship (2014, 2016).
-<!--* <b>2×</b>Third-class of Excellent Undergraduate Scholarship by SCU (9%) (2014, 2016).
-* Second Prize of Sichuan Regional Contest of 7th Lan Qiao Cup (2016).-->
+<!--* <b>2×</b>Third-class of Excellent Undergraduate Scholarship by SCU (9%) (2014, 2016).-->
+<!--* Second Prize of Sichuan Regional Contest of 7th Lan Qiao Cup (2016).-->
