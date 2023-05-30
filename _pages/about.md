@@ -17,8 +17,8 @@ You can find my CV <a href="{{url}}/files/wtian-cv.pdf" target="_blank">here</a>
 Education
 ------
 * Ph.D. in Department of Computing, Hong Kong Polytechnic University.
-* M.E. in College of Computer Science, Sichuan University, 2020
-* B.E. in College of Computer Science, Sichuan University, 2017
+* M.E. in College of Computer Science, Sichuan University, 2020.
+* B.E. in College of Computer Science, Sichuan University, 2017.
 
 News
 ======

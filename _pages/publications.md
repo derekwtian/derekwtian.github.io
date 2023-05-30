@@ -75,7 +75,7 @@ author_profile: true
 
 Talks
 ======
-* <a href="https://scuvis.org/2017twlfjl/">
+* <a href="https://scuvis.org/2017twlfjl/" target="_blank">
     <i>The Research Intern at Alibaba DAMO Academy</i>
   </a>
   <br>
