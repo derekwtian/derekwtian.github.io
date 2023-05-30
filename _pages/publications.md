@@ -11,6 +11,22 @@ author_profile: true
 
 {% include base_path %}
 
+* <a href="" target="_blank">
+    <i>Effective and Efficient Route Planning Using Historical Trajectories on Road Networks.</i>
+  </a>
+  <br>
+  <b>Wei Tian</b>, Jieming Shi, Siqiang Luo, Hui Li, Xike Xie, Yuanhang Zou.
+  <br>
+  <b><i>PVLDB 2023</i></b>, to appear.
+
+* <a href="{{url}}/files/vre.pdf" target="_blank">
+    <i>VRE: A Versatile, Robust, and Economical Trajectory Data System.</i>
+  </a>
+  <br>
+  Hai Lan, Jiong Xie, Zhifeng Bao, Feifei Li, <b>Wei Tian</b>, Fang Wang, Sheng Wang, Ailin Zhang.
+  <br>
+  <b><i>PVLDB 2022</i></b>, 15(12): 3398-3410 (2022).
+
 * <a href="{{url}}/files/jov2020.pdf" target="_blank">
     <i>TargetingVis: Visual Exploration and Analysis of Targeted Advertising Data.</i>
   </a>
@@ -59,8 +75,8 @@ author_profile: true
 
 Talks
 ======
-* <a href="http://scuvis.org/2021/06/12/2017twlfjl/">
-    <i>The Life of Research Intern in Alibaba DAMO Academy</i>
+* <a href="https://scuvis.org/2017twlfjl/">
+    <i>The Research Intern at Alibaba DAMO Academy</i>
   </a>
   <br>
   June 11, 2021
