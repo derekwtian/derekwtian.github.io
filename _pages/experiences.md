@@ -32,17 +32,13 @@ Working
   
 Teaching
 ======
-* Urban Computing: Teaching Assistant
-  <br>
-  University Immersion Program, College of Computer Science, Sichuan University, Summer Term 2019.
-
-* Big Data Management: Teaching Assistant
-  <br>
-  Undergraduate course, College of Computer Science, Sichuan University, Summer Term 2018.
-
-* Course of Computer Network: Teaching Assistant
-  <br>
-  Undergraduate course, College of Computer Science, Sichuan University, Fall 2017.
+* Teaching Assistant: COMP4434, Big Data Analytics, Spring 2023, Hong Kong Polytechnic University.
+* Teaching Assistant: COMP5434, Big Data Computing, Fall 2022, Hong Kong Polytechnic University.
+* Teaching Assistant: COMP5434, Big Data Computing, Spring 2022, Hong Kong Polytechnic University.
+* Teaching Assistant: ENG2002, Computer Programming, Fall 2021, Hong Kong Polytechnic University.
+* Teaching Assistant: Urban Computing, Summer Term 2019, Sichuan University.
+* Teaching Assistant: Big Data Management, Summer Term 2018, Sichuan University.
+* Teaching Assistant: Course of Computer Network, Fall 2017, Sichuan University.
   
 Professional Service
 ======
