@@ -11,13 +11,29 @@ author_profile: true
 
 {% include base_path %}
 
-* <a href="" target="_blank">
+* <a href="{{url}}/files/unite.pdf" target="_blank">
+    <i>UNITE: A Unified Framework for Accurate and Efficient Origin-Destination and Route Travel Time Estimation.</i>
+  </a>
+  <br>
+  <b>Wei Tian</b>, Jieming Shi, Man Lung Yiu.
+  <br>
+  <b><i>SIGKDD 2026</i></b>, to appear.
+
+* <a href="{{url}}/files/trmma.pdf" target="_blank">
+    <i>Efficient Methods for Accurate Sparse Trajectory Recovery and Map Matching.</i>
+  </a>
+  <br>
+  <b>Wei Tian</b>, Jieming Shi, Man Lung Yiu.
+  <br>
+  <b><i>ICDE 2025</i></b>, pp. 363–375, 2025.
+
+* <a href="{{url}}/files/drpk.pdf" target="_blank">
     <i>Effective and Efficient Route Planning Using Historical Trajectories on Road Networks.</i>
   </a>
   <br>
   <b>Wei Tian</b>, Jieming Shi, Siqiang Luo, Hui Li, Xike Xie, Yuanhang Zou.
   <br>
-  <b><i>PVLDB 2023</i></b>, to appear.
+  <b><i>PVLDB 2023</i></b>, 16(10): 2512-2524, 2023.
 
 * <a href="{{url}}/files/vre.pdf" target="_blank">
     <i>VRE: A Versatile, Robust, and Economical Trajectory Data System.</i>
@@ -25,7 +41,7 @@ author_profile: true
   <br>
   Hai Lan, Jiong Xie, Zhifeng Bao, Feifei Li, <b>Wei Tian</b>, Fang Wang, Sheng Wang, Ailin Zhang.
   <br>
-  <b><i>PVLDB 2022</i></b>, 15(12): 3398-3410 (2022).
+  <b><i>PVLDB 2022</i></b>, 15(12): 3398-3410, 2022.
 
 * <a href="{{url}}/files/jov2020.pdf" target="_blank">
     <i>TargetingVis: Visual Exploration and Analysis of Targeted Advertising Data.</i>
