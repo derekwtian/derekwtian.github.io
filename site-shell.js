@@ -143,7 +143,9 @@
     return `
   <div class="${getFooterClassName()}">
     <footer class="site-footer">
-      <div class="footer-social">${socialLinks}</div>
+      <div class="footer-social">${socialLinks}
+      </div>
+      <p class="footer-copyright">${getFooterCopy()}</p>
     </footer>
   </div>
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">
