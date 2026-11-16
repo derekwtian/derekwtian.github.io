@@ -5,7 +5,7 @@
 
 (function () {
   const NAV_ITEMS = [
-    { key: 'home', href: 'index.html', label: 'Home' },
+    { key: 'home', href: 'index.html', label: 'About' },
     { key: 'publications', href: 'publications.html', label: 'Publications' },
     // { key: 'projects', href: 'projects.html', label: 'Projects' },
     // { key: 'blogs', href: 'blogs.html', label: 'Blogs' },
@@ -151,8 +151,6 @@
     return `
   <div class="${getFooterClassName()}">
     <footer class="site-footer">
-      <div class="footer-social">${socialLinks}</div>
-      <script id="_wauepr">var _wau = _wau || []; _wau.push(["map", "7sjpyywuk8", "epr", "180", "90", "classic", "default-black"]);</script><script async src="//waust.at/m.js"></script>
       <p class="footer-last-modified">${getLastModifiedText()}</p>
       <p class="footer-copyright">${getFooterCopy()}</p>
     </footer>
@@ -160,6 +158,22 @@
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
   </button>`;
+  }
+
+  function loadVisitorMap() {
+    if (document.querySelector('script[data-waust-map]')) {
+      return;
+    }
+
+    window._wau = window._wau || [];
+    window._wau.push(['map', '7sjpyywuk8', 'epr', '180', '90', 'classic', 'default-black']);
+
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://waust.at/m.js';
+    script.dataset.waustMap = 'true';
+    script.onerror = () => console.error('Failed to load the visitor map script from waust.at.');
+    document.head.appendChild(script);
   }
 
   function injectSiteShell() {
@@ -171,6 +185,7 @@
     const footerMount = document.getElementById('site-footer');
     if (footerMount) {
       footerMount.innerHTML = buildFooter();
+      loadVisitorMap();
     }
   }
 
