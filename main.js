@@ -44,13 +44,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initialize back to top button
   initializeBackToTop();
 
-  // Update last modified time
-  const lastModifiedElement = document.getElementById('last-modified-time');
-  if (lastModifiedElement) {
-    const lastModified = new Date(document.lastModified);
-    const options = { year: 'numeric', month: 'long' };
-    lastModifiedElement.textContent = `Last Modified: ${lastModified.toLocaleDateString('en-US', options)}`;
-  }
 });
 
 /**

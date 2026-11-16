@@ -424,6 +424,13 @@ ol {
   margin: 0;
 }
 
+.footer-last-modified {
+  font-size: 11px;
+  color: var(--text-color);
+  opacity: 0.6;
+  margin: 6px 0 0;
+}
+
 /* Small credit shown on the same line, to the right of the copyright */
 .footer-credit {
   font-size: 11px;

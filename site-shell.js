@@ -111,6 +111,15 @@
     return '© 2026 Wei Tian. All rights reserved.';
   }
 
+  function getLastModifiedText() {
+    const lastModified = new Date(document.lastModified);
+    const formattedDate = lastModified.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long'
+    });
+    return `Last Modified: ${formattedDate}`;
+  }
+
   function getFooterClassName() {
     const footerSize = document.body.dataset.footerWidth;
     if (footerSize === 'wide' || getCurrentPage() === 'photography') {
@@ -142,8 +151,9 @@
     return `
   <div class="${getFooterClassName()}">
     <footer class="site-footer">
-      <div class="footer-social">${socialLinks}
-      </div>
+      <div class="footer-social">${socialLinks}</div>
+      <script id="_wauepr">var _wau = _wau || []; _wau.push(["map", "7sjpyywuk8", "epr", "180", "90", "classic", "default-black"]);</script><script async src="//waust.at/m.js"></script>
+      <p class="footer-last-modified">${getLastModifiedText()}</p>
       <p class="footer-copyright">${getFooterCopy()}</p>
     </footer>
   </div>
