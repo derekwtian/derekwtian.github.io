@@ -151,7 +151,12 @@ const researchExperience = [
 
 // Teaching Data - Replace with your own teaching experience
 const teaching = [
-  "Teaching Assistant, Institution, Course Name, Semester YYYY, with Prof. Name"
+  "2024 Spring: Teaching Assistant, COMP1011 - Programming Fundamentals, Hong Kong Polytechnic University",
+  "2023 Fall: Teaching Assistant, COMP5434 - Big Data Computing, Hong Kong Polytechnic University",
+  "2023 Spring: Teaching Assistant, COMP4434 - Big Data Analytics, Hong Kong Polytechnic University",
+  "2022 Fall: Teaching Assistant, COMP5434 - Big Data Computing, Hong Kong Polytechnic University",
+  "2022 Spring: Teaching Assistant, COMP5434 - Big Data Computing, Hong Kong Polytechnic University",
+  "2021 Fall: Teaching Assistant, ENG2002 - Computer Programming, Hong Kong Polytechnic University"
 ];
 
 // Academic Services Data - Replace with your own services
