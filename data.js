@@ -177,11 +177,11 @@ const academicServices = {
 // Talks Data - Replace with your own talks
 const talks = [
   {
-    title: "Your Talk Title",
-    venue: "Venue Name",
-    date: "Mon DD, YYYY",
+    title: "The Research Intern at Alibaba DAMO Academy",
+    venue: "Vision Computing Lab, Sichuan University",
+    date: "June 11, 2021",
     attachments: [
-      { text: "Slides", url: "files/your-talk/slides.pdf" }
+      { text: "Newspaper", url: "https://scuvis.org/2017twlfjl/" }
     ]
   }
 ];
