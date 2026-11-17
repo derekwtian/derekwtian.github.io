@@ -98,7 +98,7 @@ const publications = [
     authors: "Min Zhu, Li Chen, Qin Li, <b>Wei Tian</b>, Yong Pi, Qi Huang, et.al",
     venue: "China Machine Press (机械工业出版社) 2018",
     links: [
-      { text: "Book", url: "http://cmpbook.com/stackroom.php?id=44752" },
+      { text: "Book", url: "https://www.cmpedu.com/books/book/5529932.htm" },
     ],
     isNew: false,
     isPreprint: false,
@@ -156,7 +156,7 @@ const teaching = [
 
 // Academic Services Data - Replace with your own services
 const academicServices = [
-  "Reviewer: Conference YYYY",
+  "Conference Program Committee/Reviewer: Conference YYYY",
   "Volunteer: Conference YYYY"
 ];
 
