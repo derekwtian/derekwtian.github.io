@@ -130,13 +130,13 @@ function populatePublications(publications, listId) {
     if (linkElements.length > 0) {
       interactiveItems.push(linkElements[0]);
     }
-    interactiveItems.push(abstractToggle);
     if (linkElements.length > 1) {
       linkElements.slice(1).forEach(linkElement => {
         interactiveItems.push(linkElement);
       });
     }
-    interactiveItems.push(citationToggle);
+    // interactiveItems.push(abstractToggle);
+    // interactiveItems.push(citationToggle);
 
     interactiveItems.forEach((item, index) => {
       if (index > 0) {
