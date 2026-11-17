@@ -7,8 +7,7 @@ const publications = [
     authors: "<b>Wei Tian</b>, Jieming Shi, Man Lung Yiu",
     venue: "SIGKDD 2026",
     links: [
-      { text: "Paper", url: "files/unite.pdf" },
-      { text: "Code", url: "https://github.com/derekwtian/UNITE" }
+      { text: "Paper", url: "files/unite.pdf" }
     ],
     isNew: true,
     isPreprint: false,

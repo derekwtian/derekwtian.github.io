@@ -15,7 +15,7 @@ function closeOtherDetails(activeToggle) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // Homepage: single selected papers list (preprints + conference papers, both filtered to isSelected)
   if (document.getElementById('selected-papers-list')) {
     const selected = [...getSelectedPreprints(), ...getSelectedPublications()];
@@ -154,8 +154,8 @@ function populatePublications(publications, listId) {
 
     li.appendChild(titleDiv);
     li.appendChild(restDiv);
-    li.appendChild(abstractContainer);
-    li.appendChild(citationContainer);
+    // li.appendChild(abstractContainer);
+    // li.appendChild(citationContainer);
     li.appendChild(bottomSpaceDiv);
     list.appendChild(li);
   });
