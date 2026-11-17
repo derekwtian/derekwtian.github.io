@@ -151,6 +151,7 @@
     return `
   <div class="${getFooterClassName()}">
     <footer class="site-footer">
+      <script id="_wauepr"></script>
       <p class="footer-last-modified">${getLastModifiedText()}</p>
       <p class="footer-copyright">${getFooterCopy()}</p>
     </footer>
