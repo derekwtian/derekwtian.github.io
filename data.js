@@ -3,21 +3,13 @@
 // Use isSelected: true to feature it on the homepage and CV.
 const publications = [
   {
-    title: "Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
-    authors: "<b>Your Name</b>, Co-Author One, Co-Author Two",
-    venue: "ACL 2025",
+    title: "UNITE: A Unified Framework for Accurate and Efficient Origin-Destination and Route Travel Time Estimation",
+    authors: "<b>Wei Tian</b>, Jieming Shi, Man Lung Yiu",
+    venue: "SIGKDD 2026",
     links: [
-      { text: "Paper", url: "https://aclanthology.org/2025.acl-long.1354/" },
-      { text: "Code", url: "https://github.com/Arvid-pku/Godel_Agent" }
+      { text: "Paper", url: "files/unite.pdf" },
+      { text: "Code", url: "https://github.com/derekwtian/UNITE" }
     ],
-    abstract: "The rapid advancement of large language models (LLMs) has significantly enhanced the capabilities of AI-driven agents across various tasks. However, existing agentic systems, whether based on fixed pipeline algorithms or pre-defined meta-learning frameworks, cannot search the whole agent design space due to the restriction of human-designed components, and thus might miss the globally optimal agent design. We introduce Gödel Agent, a self-evolving framework inspired by the Gödel machine, enabling agents to recursively improve themselves without relying on predefined routines or fixed optimization algorithms.",
-    citation: `<pre><code>@inproceedings{yin-etal-2025-godel,
-    title  = {G{\\"o}del Agent: A Self-Referential Agent Framework for Recursively Self-Improvement},
-    author = {Your Name and Co-Author One and Co-Author Two},
-    booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-    year   = {2025},
-    url    = {https://aclanthology.org/2025.acl-long.1354/}
-}</code></pre>`,
     isNew: true,
     isPreprint: false,
     isSelected: true
