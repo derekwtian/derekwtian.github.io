@@ -155,10 +155,19 @@ const teaching = [
 ];
 
 // Academic Services Data - Replace with your own services
-const academicServices = [
-  "Conference Program Committee/Reviewer: Conference YYYY",
-  "Volunteer: Conference YYYY"
-];
+const academicServices = {
+  "Conference Program Committee/Reviewer": [
+    "ACM International Conference on Web Search and Data Mining (WSDM) Year: 2027"
+    , "Special Interest Group on Spatial Information (SIGSPATIAL) Year: 2026"
+    , "IEEE International Conference on Mobile Data Management (MDM) Year: 2026"
+    , "IEEE International Conference on Systems, Man, and Cybernetics (SMC) Year: 2018"
+  ],
+  "Volunteer": [
+    "Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) Year: 2026"
+    , "IEEE International Conference on Data Engineering (ICDE) Year: 2025"
+    , "China Visualization and Visual Analytics Conference (ChinaVis) Year: 2019"
+  ]
+};
 
 // Talks Data - Replace with your own talks
 const talks = [
@@ -174,5 +183,9 @@ const talks = [
 
 // Honors Data - Replace with your own honors and awards
 const honors = [
-  "Your Award Name, Institution, Month YYYY"
+  "The Hong Kong Polytechnic University Research Postgraduate Scholarship (2021)",
+  "Outstanding Master Graduates of Sichuan University (2020)",
+  "Outstanding student member of Sichuan University Branch of CCF (2018)",
+  "Honorable mention of ChinaVis Data Challenge (2017)",
+  "Second Prize of Sichuan Regional Contest of 7th Lan Qiao Cup (2016)"
 ];

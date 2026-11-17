@@ -208,9 +208,20 @@ function populateAcademicServices() {
   const list = document.getElementById('academic-services-list');
   if (!list) return;
 
-  academicServices.forEach(service => {
+  Object.entries(academicServices).forEach(([category, services]) => {
     const li = document.createElement('li');
-    li.innerHTML = `<p>${service}</p>`;
+    const heading = document.createElement('strong');
+    heading.textContent = category;
+    li.appendChild(heading);
+
+    const serviceList = document.createElement('ul');
+    serviceList.className = 'academic-service-items';
+    services.forEach(service => {
+      const serviceItem = document.createElement('li');
+      serviceItem.textContent = service;
+      serviceList.appendChild(serviceItem);
+    });
+    li.appendChild(serviceList);
     list.appendChild(li);
   });
 }
