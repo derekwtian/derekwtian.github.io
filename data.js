@@ -179,9 +179,9 @@ const talks = [
   {
     title: "The Research Intern at Alibaba DAMO Academy",
     venue: "Vision Computing Lab, Sichuan University",
-    date: "June 11, 2021",
+    date: "June 2021",
     attachments: [
-      { text: "Newspaper", url: "https://scuvis.org/2017twlfjl/" }
+      { text: "News", url: "https://scuvis.org/2017twlfjl/" }
     ]
   }
 ];
