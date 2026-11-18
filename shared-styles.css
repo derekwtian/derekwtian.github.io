@@ -158,13 +158,13 @@ ol {
 #teaching-list,
 #honors-list {
   list-style-type: disc !important;
-  padding-left: 0 !important;
+  padding-left: 20px !important;
   margin: 0 0 20px 0 !important;
 }
 
 .academic-service-items {
   list-style-type: disc !important;
-  padding-left: 20px !important;
+  padding-left: 40px !important;
   margin: 4px 0 0 !important;
 }
 
